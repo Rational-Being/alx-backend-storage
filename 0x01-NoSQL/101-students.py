@@ -13,6 +13,6 @@ def top_students(mongo_collection):
             "name": "$name",
             "averageScore": {"$avg": "$topics.score"}
         }},
-        {"$sort": {"avarageScore": -1}},
+        {"$sort": {"averageScore": -1}},
         ]
     )
