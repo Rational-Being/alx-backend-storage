@@ -1,0 +1,2 @@
+//displays number of elements in a collection
+db.school.count()
